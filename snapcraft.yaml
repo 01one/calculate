@@ -1,0 +1,8 @@
+name: calculate
+base: core20
+version: '1.0'
+summary: Enjoy the boring calculation
+description: |
+User-friendly user interface for fast calculation
+confinement: devmode
+
