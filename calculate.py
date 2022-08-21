@@ -65,11 +65,7 @@ while game_running:
 			for i in range(len(button_position)):
 				if button_position[i].collidepoint(mouse_position):
 					current_button=i
-		mouse_position=pygame.mouse.get_pos()
-		if event.type==pygame.MOUSEMOTION:
-			for i in range(len(button_position)):
-				if button_position[i].collidepoint(mouse_position):
-					current_button=i
+
 		if event.type==pygame.MOUSEBUTTONDOWN:
 			for i in range(len(button_position)):
 				if button_position[i].collidepoint(mouse_position):
